@@ -3,9 +3,9 @@ import csv
 winner = []
 looser = []
 result = {}
-file_location = "F:\Project\Git\ezeDox\Assignments"
-
-data = csv.DictReader(open(file_location + "\matches.csv"))
+# file_location = "F:\Project\Git\ezeDox\Assignments\\"
+file_location = ""
+data = csv.DictReader(open(file_location + "matches.csv"))
 
 for x in data:
     winner.append(x['winner'])
